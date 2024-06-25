@@ -384,7 +384,7 @@ form {
     margin-bottom: 20px;
 }
 
-/* Medias Queries */
+
 @media (max-width: 768px) {
     .container1index {
         flex-direction: column;
