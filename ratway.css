@@ -83,7 +83,7 @@ h1 {
 
 h2 {
     width: fit-content;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    background-color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     padding: 5px;
     color: whitesmoke;
@@ -259,13 +259,13 @@ button:hover {
     font-size: 14px;
 }
 
-/* Estilos generales */
+
 body {
     background-color: black;
     color: beige;
 }
 
-/* Imágenes y contenedores */
+
 .backgroundindex {
     background-image: url('background.jpg');
     background-size: cover;
@@ -327,7 +327,7 @@ body {
     max-width: 20%;
 }
 
-/* Titulares */
+
 h1 {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
@@ -350,7 +350,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Párrafos y spans */
+
 p, span {
     color: #ffeb3b;
     font-size: 22px;
@@ -361,7 +361,7 @@ p, span {
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-/* Formularios */
+
 .containerform {
     font-family: 'Impact', sans-serif;
     background-image: url('background.jpg');
