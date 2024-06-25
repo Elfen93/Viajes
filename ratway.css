@@ -258,3 +258,167 @@ button:hover {
     text-align: center;
     font-size: 14px;
 }
+
+/* Estilos generales */
+body {
+    background-color: black;
+    color: beige;
+}
+
+/* Imágenes y contenedores */
+.backgroundindex {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container1index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.container1index span {
+    color: white;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+.container2index {
+    margin: 0 12%;
+    display: inline-block;
+}
+
+.navigationindex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigationindex a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #090909, 0 0 20px #0e0d0d;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigationindex a:hover {
+    background-color: #575757;
+    color: #8c8c8c;
+}
+
+.laratoneralogo1index {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ratonera2index {
+    display: block;
+    margin-right: auto;
+    max-width: 20%;
+}
+
+/* Titulares */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 74px;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #d6d6d6, 0 0 20px #ff0000;
+    text-transform: uppercase;
+}
+
+/* Párrafos y spans */
+p, span {
+    color: #ffeb3b;
+    font-size: 22px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #090909, 0 0 20px #0e0d0d;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+/* Formularios */
+.containerform {
+    font-family: 'Impact', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Medias Queries */
+@media (max-width: 768px) {
+    .container1index {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navigationindex {
+        flex-direction: column;
+    }
+    .container2index {
+        margin: 0 5%;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p, span {
+        font-size: 18px;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .navigationindex a {
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .image-item p {
+        font-size: 12px;
+    }
+}
