@@ -1,0 +1,260 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+.backgroundindex {
+
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container1index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+
+}
+
+.container1index span {
+    color: white;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+
+.container2index {
+    margin-left: 12%;
+    margin-right: 12%;
+    display: inline-block;
+
+
+}
+
+.navigationindex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigationindex a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #090909, 0 0 20px #0e0d0d;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigationindex a:hover {
+    background-color: #575757;
+    color: #8c8c8c;
+}
+
+
+.laratoneralogo1index {
+
+    width: 100%;
+    max-width: 100%;
+}
+
+.ratonera2index {
+    display: block;
+    margin-right: auto;
+    max-width: 20%;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 74px;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+    margin-bottom: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #d6d6d6, 0 0 20px #ff0000;
+    text-transform: uppercase;
+
+}
+
+p, span {
+
+    color: #ffeb3b;;
+    font-size: 22px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #090909, 0 0 20px #0e0d0d;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
+}
+
+
+.containerform {
+    font-family: 'Impact', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #ffeb3b;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    color: #ffeb3b;
+    padding: 10px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffeb3b;
+}
+
+.radio-group {
+    border: 1px solid #ffeb3b;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffeb3b;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffeb3b;
+    border-radius: 4px;
+    background-color: #222;
+    color: #ffeb3b;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group {
+    margin-bottom: 10px;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffeb3b;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #444;
+    color: #ffeb3b;
+    font-size: 18px;
+    letter-spacing: normal;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ffeb3b;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), 0 0 10px #090909, 0 0 20px #0e0d0d;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.links a:hover {
+    background-color: #575757;
+    color: #8c8c8c;
+
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.image-item {
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.image-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.image-item p {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}

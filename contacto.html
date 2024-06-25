@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact me</title>
+        <link rel="stylesheet" type="text/css" href="ratway.css">
+    <body>
+        <img src="rotulo.png" alt="La Ratonera" class="laratoneralogo1index">
+
+<div class="backgroundindex">
+    <div class="container1index">
+        <span>Contact me...</span>
+        <div class="navigationindex">
+            <a href="index.html">Home</a>
+            <a href="recursos.html">Tricks & Tips</a>
+            <a href="galeria.html">Gallery</a>
+            <a href="contacto.html">Contact me</a>
+        </div>
+    </div>
+    <div class="containerform">
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Send me a message</legend>
+
+                <div>
+                    <label for="firstName">Destination</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Nickname</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="user_status_name">
+                        <option value="student">Planning a trip</option>
+                        <option value="Instructor">Waiting for travel</option>
+                        <option value="Guest">Already in my new home</option>
+                    </select>
+                </div>
+
+               <div>
+                    <label for="current_date">Current date</label>
+                    <input type="date" id="current_date" name="current_date">
+                </div>
+
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="sign_up" name="sign_up" checked />
+                    <label for="sign_up">Check this box just for the sake of checking it</label>
+                  </div>
+
+                  <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" />
+                    <label for="terms">Agree to terms and conditions (there are no T&C)</label>
+                  </div>
+
+                <div>
+                    <button type="submit">Submit (nothing will actually happen :D)</button>
+                  </div>
+
+            </fieldset>
+        </form>
+        <img src="laratoneralogo1.png" alt="La Ratonera" class="ratonera2index">
+    </div>
+    </head>
+    </body>
+</html>
